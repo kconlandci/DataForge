@@ -287,7 +287,7 @@ ${scenarios},
   const outPath = path.join(outDir, `${slug}.ts`);
 
   if (fs.existsSync(outPath)) {
-    console.log(`\nâš ï¸  File already exists: ${outPath}`);
+    console.log(`\n⚠️  File already exists: ${outPath}`);
     const overwrite = await ask("Overwrite? (y/n): ");
     if (overwrite.toLowerCase() !== "y") {
       console.log("Aborted.");

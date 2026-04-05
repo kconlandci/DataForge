@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="amberGlow" x1="10" x2="54" y1="8" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fbbf24" />
+      <stop offset="1" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#0f172a" />
+  <path
+    d="M18 18c0-4.418 6.268-8 14-8s14 3.582 14 8v28c0 4.418-6.268 8-14 8s-14-3.582-14-8V18Z"
+    fill="url(#amberGlow)"
+    opacity="0.18"
+  />
+  <ellipse cx="32" cy="18" rx="14" ry="8" fill="url(#amberGlow)" />
+  <path
+    d="M18 18v10c0 4.418 6.268 8 14 8s14-3.582 14-8V18"
+    stroke="#fde68a"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+  <path
+    d="M18 28v10c0 4.418 6.268 8 14 8s14-3.582 14-8V28"
+    stroke="#fbbf24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+  <path
+    d="M18 38v8c0 4.418 6.268 8 14 8s14-3.582 14-8v-8"
+    stroke="#f59e0b"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+  <ellipse cx="32" cy="18" rx="14" ry="8" stroke="#fef3c7" stroke-width="3" />
+</svg>

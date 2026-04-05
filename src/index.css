@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* DataForge analytics theme tokens */
+:root {
+  --forge-dark: #020617;
+  --forge-surface: #0f172a;
+  --forge-card: #111827;
+  --forge-amber: #f59e0b;
+  --forge-amber-glow: #fbbf24;
+  --forge-steel: #94a3b8;
+  --forge-text: #f8fafc;
+  --forge-muted: #64748b;
+  --forge-success: #22c55e;
+  --forge-warning: #facc15;
+  --forge-danger: #ef4444;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Inter", system-ui, -apple-system, sans-serif;
+  background:
+    radial-gradient(circle at top, rgb(245 158 11 / 0.12), transparent 35%),
+    linear-gradient(180deg, #020617 0%, #0f172a 100%);
+  color: var(--forge-text);
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a,
+[role="button"] {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#root {
+  min-height: 100svh;
+  max-width: 480px;
+  margin: 0 auto;
+}
